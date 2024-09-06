@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar bg">
+        <ul class="links-container">
+            <li class="link-item"><a href="index.html" class="link">home</a></li>
+            <li class="link-item"><a href="product.html" class="link active">product</a></li>
+            <li class="link-item"><a href="#" class="link">about</a></li>
+            <li class="link-item"><a href="contact.html" class="link">contact</a></li>
+
+        </ul>
+        <div class="user-interaction">
+            <div class="cart">
+                <img src="images/cart.png" class="cart-icon" alt="">
+                <span class="cart-item-count">00</span>
+            </div>
+            <div class="user">
+                <img src="images/user.png" class="user-icon" alt="">
+
+            </div>
+        </div>
+
+     </nav>
+
+     <!--product detail-->
+     <section class="product-section">
+        <img src="images/Screenshot 2024-08-26 010015.png" class="product-image" alt="">
+        <div class="product-detail">
+            <h1 class="product-title">Lipsticks</h1>
+            <p class="product-des">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident accusamus sunt voluptates iure quasi molestias, voluptas necessitatibus placeat incidunt at.</p>
+            <div class="ratings">
+                <img src="images/fill star.png" class="star" alt="">
+                <img src="images/fill star.png" class="star" alt="">
+                <img src="images/fill star.png" class="star" alt="">
+                <img src="images/fill star.png" class="star" alt="">
+                <img src="images/no fill star.png" class="star" alt="">
+                <span class="rating-count">4023 reviews</span>
+            </div>
+            <p class="price">₹499</p>
+            <div class="btn-container">
+                <button class="product-btn buy-btn">but now</button>
+                <button class="product-btn cart-btn">add to cart</button>
+            </div>
+        </div>
+     </section>
+
+     <section class="detail-des">
+        <h1 class="sectiion-title">details</h1>
+        <p class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe reiciendis aspernatur modi suscipit consectetur. Iusto repellat culpa ad error porro cum, quibusdam animi vel corrupti quo ducimus, velit non tenetur sapiente, placeat fuga optio dolorum. Est fuga, mollitia, voluptates explicabo ipsam quam quo illo accusantium amet ipsa eaque inventore dolorum. Facere nostrum inventore eligendi laboriosam architecto cumque quis atque ducimus dolorum iure quia, rerum quisquam alias provident esse iusto tenetur enim voluptates, unde libero! Laborum sit doloribus veritatis repellat adipisci eum iste distinctio? Consectetur veritatis harum quisquam, dolores assumenda quibusdam nulla provident, quia facilis commodi voluptas laboriosam nostrum autem ullam unde molestias vel at deleniti eligendi quidem amet, consequuntur molestiae aspernatur vitae. Tempore deleniti cum ad dicta, qui minus, assumenda nihil iusto nulla illo non alias amet pariatur aut provident eligendi. Voluptatem, sequi voluptates sint maiores, asperiores iusto ex sed modi nisi expedita a voluptatum? Velit esse voluptatem doloribus rem! <br><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur minus voluptatum voluptas architecto ad ullam molestias, officiis inventore eos sapiente modi ratione obcaecati aut maxime saepe excepturi aliquam quaerat nostrum incidunt, totam qui officia soluta. Nemo soluta quo sed architecto earum. Cumque eligendi quam error.</p>
+     </section>
+
+     <!--review section-->
+    <section class="review-section">    
+        <h1 class="section-title">reviews</h1>
+            <div class="review-container">
+                <div class="review-card">
+                    <div class="user-dp" data-rating="4.9"><img src="images/user 1.png" alt="">
+                        <h2 class="review-title">best quality more than my expectations</h2>
+                        <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolores ex incidunt reiciendis amet quis.</p>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="user-dp" data-rating="4.9"><img src="images/user 2.png" alt="">
+                        <h2 class="review-title">Superb quality in affordable price</h2>
+                        <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolores ex incidunt reiciendis amet quis.</p>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="user-dp" data-rating="4.9"><img src="images/user 3.png" alt="">
+                        <h2 class="review-title">They only provides the geniune products</h2>
+                        <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolores ex incidunt reiciendis amet quis.</p>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="user-dp" data-rating="4.9"><img src="images/user 4.png" alt="">
+                        <h2 class="review-title">Provides best facilites to their customer</h2>
+                        <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolores ex incidunt reiciendis amet quis.</p>
+                    </div>
+                </div>
+            </div>
+    
+    </section>
+
+    <!--add review form-->
+    <section class="add-review-section">
+        <h1 class="section-title">Add a review</h1>
+        <input type="text" class="review-headline" placeholder="review headline">
+        <textarea placeholder="review" class="review-field"></textarea>
+        <p class="rating-text">how much you like the product</p>
+        <div class="star-container">
+            <img src="images/no fill star.png" class="rating-star" alt="">
+            <img src="images/no fill star.png" class="rating-star" alt="">
+            <img src="images/no fill star.png" class="rating-star" alt="">
+            <img src="images/no fill star.png" class="rating-star" alt="">
+            <img src="images/no fill star.png" class="rating-star" alt="">
+        </div>
+        <button class="add-review-btn">add review</button>
+
+    </section>
+
+     <!--similar product-->
+     <section class="best-selling-product-section">
+      
+        <h1 class="section-title">similar product</h1>
+    <div class="product-container">
+
+        <div class="product-card">
+            <img src="images/cosmetics.jpg" class="product-img" alt="">
+            <p class="product-name">Cosmetics→</p>
+        </div>
+        <div class="product-card">
+            <img src="images/people queens.png" class="product-img" alt="">
+            <p class="product-name">People Queens→</p>
+        </div>
+        <div class="product-card">
+            <img src="images/perfumes.jpg" class="product-img" alt="">
+            <p class="product-name">Perfumess Gift Packs→</p>
+        </div>
+        <div class="product-card">
+            <img src="images/Insight.png" class="product-img" alt="">
+            <p class="product-name">Insight Makeup Essentials→</p>
+        </div>
+    </div>
+
+</section>
+
+
+
+<!--footer-->
+<footer class="footer">
+
+    <h1 class="footer-heading">Premium <span>quality</span></h1>
+
+    <div class="container">
+        <div>
+            <h3>About Us</h3>
+            <ul>
+                <li><a href="#">Company Information</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Store Locations</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Customer Service</h3>
+            <ul>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="#">Order Tracking</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">FAQs</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <ul>
+                <li><a href="https://www.facebook.com/kartikey.purwar.16?mibextid=JRoKGi"><i class="fa fa-facebook"></i> Facebook</a></li>
+                <li><a href="https://wa.me/919548720654"><i class="fa fa-twitter"></i> Whatsapp</a></li>
+                <li><a href="https://www.instagram.com/auraiya_ki_dukan?igsh=MXRwNXc2Zm8wa2RxOA=="><i class="fa fa-instagram"></i> Instagram</a></li>
+            </ul>
+            </div>
+        </div>
+    </div>
+    
+</footer>
+
+
+
+    <script src="product.js"></script>
+</body>
+</html>
